@@ -1,0 +1,35 @@
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">  
+    <title>Todo List App</title>
+    <link rel="stylesheet" href="style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  </head>
+
+
+  <body>
+    <div class="wrapper">
+      <div class="task-input">   
+        <input type="text" placeholder="Add Task and Hit Enter " id="t1">    
+      </div>
+
+      <div class="controls">
+        <div class="filters">
+          <br>
+          <span id="all">Task list</span> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+          <input type="button" value="Remove Task" class="clear-btn" id="rt"></input><br><br>
+        </div>  
+      </div>
+
+      <ul class="task-box" id="tb">  </ul>
+
+      <br><br><br><br><br><br><br>
+      <label id="t2" style="color: #0000FF" style="font-size: 22px">Completed Tasks:<br><br></label>
+      <label id="tl" style="color: #FFFFFF" style="font-size: 14px"></label>
+      <br><br><br><br><br><br><br>
+      <label id="all" style="color: #FFFFFF" style="font-size: 14px">Click on any task to mark task as completed </labe>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
